@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-native-gesture-handler
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Calibre2\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Jobanpreet Singh\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Yarn\bin\;C:\Users\Jobanpreet Singh\AppData\Local\Microsoft\WindowsApps;C:\Users\Jobanpreet Singh\AppData\Local\atom\bin;C:\Users\Jobanpreet Singh\AppData\Local\Microsoft\WindowsApps;C:\Users\Jobanpreet Singh\AppData\Local\GitHubDesktop\bin;C:\Users\Jobanpreet Singh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jobanpreet Singh\AppData\Roaming\npm;C:\Users\Jobanpreet Singh\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Jobanpreet Singh\Downloads\moviebrowser\moviebrowser\node_modules\babel-loader\lib'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~37.0.3",
+      "expo-cli": "^3.22.3",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+      "react-native-paper": "^2.5.0",
+      "react-native-screens": "2.2.0",
+      "react-native-web": "~0.11.7",
+      "react-navigation": "^3.0.9",
+      "react-redux": "^5.0.7",
+      "redux": "^4.0.1"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.1.0",
+      "@babel/core": "^7.8.6"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
