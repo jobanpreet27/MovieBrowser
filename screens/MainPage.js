@@ -20,25 +20,27 @@ export default class MainPage extends React.Component{
       this.setState({ 
          title  : results[0].Title,
       })
+      this.props.navigation.navigate('SearchPage',{data:results}) 
    }
    msg = `Result for ${this.state.search}` 
    render(){
       return(
-        <View>
-          <TextInput 
+        <View style = {{flex:1,justifyContent:'center',alignItems: 'center',}}>
+           
+       <Text style = {{marginBottom:3}}>
+          MovieBrowser 
+       </Text> 
+          <TextInput style = {{margin:3,width:150,borderBottomWidth:1, borderColor:'black',}} 
            onChangeText = {this.textHandler}
            value = {this.state.search}
-           placeholder = 'Enter the title here'
+           placeholder = 'Enter the Movie Name'
            />  
           <Button
           title = 'Search'
           onPress = {this.FetchMoviestitle}
            />
-         <Text> {this.msg}</Text> 
-         <Text> the title is {this.state.title}</Text>
         </View>  
       )
    }
 }
 
- 

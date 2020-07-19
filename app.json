@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "moviebrowser",
-    "slug": "snack-6036f4e1-11c8-4a1a-a18a-0895919cb8f1",
+    "slug": "snack-joban5252",
     "platforms": [
       "ios",
       "android",
@@ -23,6 +23,7 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": ""
   }
 }
