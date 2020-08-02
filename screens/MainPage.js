@@ -27,7 +27,7 @@ export default class MainPage extends React.Component{
       return(
         <View style = {{flex:1,justifyContent:'center',alignItems: 'center',}}>
            
-       <Text style = {{marginBottom:3}}>
+       <Text style = {{marginBottom:3,fontSize : 50,}}>
           MovieBrowser 
        </Text> 
           <TextInput style = {{margin:3,width:150,borderBottomWidth:1, borderColor:'black',}} 
